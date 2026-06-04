@@ -2,6 +2,8 @@ export type Priority = 'low' | 'medium' | 'high'
 
 export type Filter = 'all' | 'active' | 'completed'
 
+export type FilterType = Filter
+
 export interface Todo {
   id: string
   text: string
